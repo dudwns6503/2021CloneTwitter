@@ -42,7 +42,7 @@ const Nweet = ({ nweetObj, isOwner }) => {
       ) : (
         <>
           <h4>{nweetObj.text}</h4>
-          {isOwner && (
+          {isOwner && (   
             <>
               <button onClick={onDeleteClick}>Delete Nweet</button>
               <button onClick={toggleEditing}>Edit Nweet</button>
